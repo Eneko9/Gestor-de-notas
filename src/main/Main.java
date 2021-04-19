@@ -1,9 +1,10 @@
 package main;
 
-import principals.ECTSSubject;
+import visual.LoginPage;
+import visual.PrincipalPanel;
 
 public class Main {
 	public static void main(String[] args) {
-		
+		new LoginPage();
 	}
 }
